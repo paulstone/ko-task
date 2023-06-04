@@ -1,6 +1,10 @@
 /* would be inclined to add this to the HTML as link in real project */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
 
+/* reset box-sizing for all elements */
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+
 html, body {
     font-family: "Open Sans";
     font-weight: 400;
