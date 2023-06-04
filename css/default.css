@@ -1,0 +1,38 @@
+[class*="container"], .header {
+  padding: 1rem;
+}
+h1 {
+  margin-top: 0;
+}
+h2 {
+  padding-left: 1rem;
+}
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  border-radius: 0;
+}
+th, td {
+  border: 1px solid #8B9296;
+  padding: 0.75rem 1.25rem;
+}
+th {
+  background-color: #edf1f2;
+}
+.sample-activity, .task-activity {
+  border: 1px solid #dee2e6;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+[class*="activity__name"] {
+  margin: 0 0 0.5rem;
+}
+[class*="activity__tags"] {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+[class*="tag--"]:not(:last-child) {
+  margin-right: 10px;
+}
